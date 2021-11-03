@@ -111,9 +111,13 @@ Open Data Sites and national scale datasets should be near the top of each secti
  
 ### Resilience and Natural Hazards
 
-- [Sea Level Rise Viewer](https://coast.noaa.gov/slr/) - NOAA provided map viewer is to provide federal, state, and local coastal resource managers and planners with a preliminary look at sea level rise and coastal flooding impacts.
+- [Active Fire Data](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/active-fire-data) - Download data on active fires for the last 24, 48 hours and 7 days.  Data is available in shapefile, KML, WMS or text file formats. 
+
 - [Earth Quake Data](https://www.ngdc.noaa.gov/hazard/earthqk.shtml) - NOAA provided data includes a global record of significant earth quakes going back to 2150 BC to present with geographic information.
 
+- [FEMA Resilience Analysis and Planning Tool (RAPT)](https://fema.maps.arcgis.com/apps/webappviewer/index.html?id=90c0c996a5e242a79345cdbc5f758fc6) - The Resilience Analysis and Planning Tool (RAPT) is a free GIS web map that allows federal, state, local, tribal and territorial emergency managers and other community leaders to examine the interplay of census data, infrastructure locations, and hazards, including real-time weather forecasts, historic disasters and estimated annualized frequency of hazard risk. 
+
+- [Sea Level Rise Viewer](https://coast.noaa.gov/slr/) - NOAA provided map viewer is to provide federal, state, and local coastal resource managers and planners with a preliminary look at sea level rise and coastal flooding impacts.
 
 ### Transportation
 
@@ -203,7 +207,6 @@ Python Libraries & Related Resources.
 
 - [Pybikes](https://github.com/eskerda/pybikes) - Pybikes provides a set of tools to scrape bike sharing data from different websites and APIs, thus providing a coherent and generalized set of classes and methods to access this sort of information.
 
-
 ### R
 R Packages & Related Resources.
 
@@ -212,6 +215,8 @@ R Packages & Related Resources.
 - [simplefeatures(sf)](https://cran.r-project.org/web/packages/sf/index.html) - Support for simple features, a standardized way to encode spatial vector data in R. 
 
 - [ggplot2](https://ggplot2.tidyverse.org/) - Resource for plotting a wide range of data (useful for visualizing survey data). Additional Information: GNU GENERAL PUBLIC LICENSE.
+
+- [ggspatial](https://cran.r-project.org/web/packages/ggspatial/index.html) - Spatial data plus the power of the ggplot2 framework means easier mapping when input. Additional Information: GNU GENERAL PUBLIC LICENSE.
 
 - [tidytext](https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html) - Go-to library for text mining--often used in tandem with ggplot or other text mining libraries.
 
@@ -241,12 +246,15 @@ A a high-level category to classify the resource into related groups. Census dat
 
 - [ArcGIS](https://www.esri.com/en-us/arcgis/about-arcgis/overview) - This platform is a geographic information system (GIS) for working with maps and geographic information maintained by the Environmental Systems Research Institute (Esri).
 
-- [QGIS](https://qgis.org/en/site/) - This open source GIS suite allows users to create, edit, visualise, analyse and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.
-    
-- [kepler.gl](https://kepler.gl/) - Kepler is a data agnostic, WebGL empowered, high-performance web application for geospatial analytic visualizations. Additional Information: [API Reference](https://docs.kepler.gl/docs/api-reference).
-
 - [flowmap-blue](https://flowmap.blue) - Create geographic flow maps representing your data published in Google Sheets. Visualize numbers of movements between locations (origin-destination data).
 
+- [kepler.gl](https://kepler.gl/) - Kepler is a data agnostic, WebGL empowered, high-performance web application for geospatial analytic visualizations. Additional Information: [API Reference](https://docs.kepler.gl/docs/api-reference).
+
+- [Google Earth Engine (GEE)](https://earthengine.google.com/) - Google Earth Engine combines a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. Scientists, researchers, and developers use Earth Engine to detect changes, map trends, and quantify differences on the Earth's surface. Earth Engine is now available for commercial use, and remains free for academic and research use. 
+
+- [QGIS](https://qgis.org/en/site/) - This open source GIS suite allows users to create, edit, visualise, analyse and publish geospatial information on Windows, Mac, Linux, BSD and mobile devices.
+
+- [Sentinel Hub](https://apps.sentinel-hub.com/eo-browser/?zoom=10&lat=41.9&lng=12.5&themeId=DEFAULT-THEME&toTime=2021-10-16T06%3A04%3A44.687Z) - Sentinel Hub is an engine for processing of petabytes of satellite data. It is opening the doors for machine learning and helping hundreds of application developers worldwide. It makes Sentinel, Landsat, and other Earth observation imagery easily accessible for browsing, visualization and analysis. Scale your system globally with an intuitive and user-friendly interface, without any hassle.
 
 ### Urban Design Tools and Platforms
 
